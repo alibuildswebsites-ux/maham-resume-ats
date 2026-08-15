@@ -4,94 +4,111 @@
 <meta charset="utf-8" />
 <title>Maham Ali - Resume</title>
 <style>
-  /* A4 at 96dpi: 794 x 1123 px. Single column, ATS-safe, no photo. */
+  /* Two A4 pages (794 x 1123 px @96dpi). Single column, ATS-safe, no photo. */
   html, body { margin: 0; padding: 0; }
-  body {
+  .page {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10pt; line-height: 1.32; color: #000;
+    font-size: 10.5pt; line-height: 1.32; color: #000;
     width: 794px; height: 1123px; box-sizing: border-box;
-    padding: 48px 56px;
+    padding: 50px 58px;
+    page-break-after: always;
   }
   h1 { font-size: 19pt; margin: 0 0 2px; }
   .role { font-size: 12pt; margin: 0 0 5px; }
   .contact { font-size: 9.5pt; margin: 0 0 12px; }
-  h2 { font-size: 11.5pt; text-transform: uppercase; border-bottom: 1px solid #000; padding-bottom: 2px; margin: 13px 0 6px; }
-  h3 { font-size: 10.5pt; margin: 8px 0 0; }
+  h2 { font-size: 11.5pt; text-transform: uppercase; border-bottom: 1px solid #000; padding-bottom: 2px; margin: 14px 0 7px; }
+  h3 { font-size: 10.5pt; margin: 9px 0 0; }
   .meta { font-size: 9.5pt; margin: 0 0 3px; font-weight: bold; }
-  ul { margin: 3px 0 0; padding-left: 16px; }
-  li { margin: 0 0 1.5px; }
+  ul { margin: 4px 0 0; padding-left: 16px; }
+  li { margin: 0 0 2px; }
   p { margin: 0 0 6px; }
-  .skills-line { margin: 2.5px 0; }
+  .skills-line { margin: 3px 0; }
 </style>
 </head>
-<body data-document-role="page" data-label="Maham Ali Resume">
-  <h1>Maham Ali</h1>
-  <p class="role">Clinical Dietitian &amp; Nutritionist</p>
-  <p class="contact">Hyderabad/Karachi, Pakistan | +92-317-3917076 | mahamalishaikh1@gmail.com</p>
+<body>
 
-  <h2>Summary</h2>
-  <p>Clinical Dietitian and Nutritionist with experience across hospital clinical nutrition and WHO/UNICEF community health programs. Skilled in medical nutrition therapy for CKD, CLD, CVA, oncology, diabetes (DM), hypertension (HTN), PCOS, and weight management. Expertise in malnutrition assessment per WHO guidelines, therapeutic diet planning, and Infant and Young Child Feeding (IYCF) counseling. Committed to evidence-based, patient-centered care in clinical and community settings.</p>
+  <!-- PAGE 1: header, summary, experience -->
+  <div class="page" data-document-role="page" data-label="Maham Ali Resume - Page 1">
+    <h1>Maham Ali</h1>
+    <p class="role">Clinical Dietitian &amp; Nutritionist</p>
+    <p class="contact">Hyderabad/Karachi, Pakistan | +92-317-3917076 | mahamalishaikh1@gmail.com</p>
 
-  <h2>Experience</h2>
+    <h2>Summary</h2>
+    <p>Clinical Dietitian and Nutritionist with experience across hospital clinical nutrition and WHO/UNICEF community health programs. Skilled in medical nutrition therapy for CKD, CLD, CVA, oncology, diabetes (DM), hypertension (HTN), PCOS, and weight management. Expertise in malnutrition assessment per WHO guidelines, therapeutic diet planning, and Infant and Young Child Feeding (IYCF) counseling. Committed to evidence-based, patient-centered care in clinical and community settings.</p>
 
-  <h3>Clinical Dietitian, Sehat</h3>
-  <p class="meta">2025 - Present</p>
-  <ul>
-    <li>Provide individualized dietary care and nutrition plans for patients with CKD, CLD, CVA, cancer, weight gain, weight loss, PCOS, dehydration, shortness of breath (SOB), hypertension (HTN), and diabetes (DM).</li>
-    <li>Perform nutritional assessments, screening, and follow-up documentation for inpatients and outpatients.</li>
-    <li>Collaborate with physicians and healthcare teams to align dietary interventions with treatment goals.</li>
-    <li>Educate patients and caregivers on disease-specific dietary management to support adherence and outcomes.</li>
-  </ul>
+    <h2>Experience</h2>
 
-  <h3>Nutrition Assistant, WHO-TSFP Program &amp; UNICEF Health &amp; Nutrition Program</h3>
-  <p class="meta">January 2025 - February 2025</p>
-  <ul>
-    <li>Managed the Targeted Supplementary Feeding Program (TSFP) caseload, screening and assessing malnourished patients per WHO guidelines and standards.</li>
-    <li>Delivered community-based nutrition interventions and therapeutic feeding support, tracking patient progress and recovery outcomes.</li>
-    <li>Ensured adherence to UNICEF nutritional protocols and maintained program documentation and reporting.</li>
-  </ul>
+    <h3>Clinical Dietitian, Sehat</h3>
+    <p class="meta">2025 - Present</p>
+    <ul>
+      <li>Develop and deliver individualized dietary care and nutrition plans for patients with CKD, CLD, CVA, cancer, weight gain, weight loss, PCOS, dehydration, shortness of breath (SOB), hypertension (HTN), and diabetes (DM).</li>
+      <li>Conduct nutritional assessments, screening, and follow-up documentation for inpatients and outpatients.</li>
+      <li>Collaborate with physicians and healthcare teams to align dietary interventions with treatment goals.</li>
+      <li>Counsel patients and caregivers on disease-specific dietary management to support adherence and outcomes.</li>
+    </ul>
 
-  <h3>IYCF Counselor, UNICEF Health &amp; Nutrition Program</h3>
-  <p class="meta">January 2024 - December 2024</p>
-  <ul>
-    <li>Led Infant and Young Child Feeding (IYCF) counseling initiatives, providing nutrition support to mothers and children.</li>
-    <li>Implemented UNICEF nutrition protocols to enhance maternal and child health outcomes.</li>
-    <li>Conducted comprehensive nutrition assessments and developed evidence-based feeding recommendations tailored to individual needs.</li>
-    <li>Supported data collection and reporting to monitor program effectiveness.</li>
-  </ul>
+    <h3>Nutrition Assistant, WHO-TSFP Program</h3>
+    <p class="meta">January 2025 - February 2025</p>
+    <ul>
+      <li>Managed the Targeted Supplementary Feeding Program (TSFP) caseload, screening and assessing malnourished patients per WHO guidelines and standards.</li>
+      <li>Provided therapeutic feeding support and tracked patient progress to improve recovery outcomes.</li>
+      <li>Maintained accurate documentation for program evaluation and reporting.</li>
+    </ul>
 
-  <h2>Internships</h2>
+    <h3>Nutrition Assistant, UNICEF Health &amp; Nutrition Program</h3>
+    <p class="meta">January 2025 - February 2025</p>
+    <ul>
+      <li>Delivered community-based nutrition interventions aimed at preventing and treating malnutrition.</li>
+      <li>Supported data collection and reporting to monitor program effectiveness and patient progress.</li>
+      <li>Collaborated with healthcare professionals to ensure adherence to UNICEF nutritional guidelines.</li>
+    </ul>
 
-  <h3>Clinical Nutrition Intern, Civil Hospital</h3>
-  <p class="meta">June 2023 - January 2024</p>
-  <ul>
-    <li>Rotated through Gastroenterology, Pediatrics, and Nephrology departments providing specialized nutrition support.</li>
-    <li>Designed and implemented therapeutic meal plans for gastrointestinal disorders and renal-friendly diets focused on fluid and electrolyte balance.</li>
-    <li>Conducted nutritional assessments and feeding interventions for pediatric patients to address growth and developmental challenges.</li>
-    <li>Participated in interdisciplinary healthcare team meetings and MNT documentation.</li>
-  </ul>
+    <h3>IYCF Counselor, UNICEF Health &amp; Nutrition Program</h3>
+    <p class="meta">January 2024 - December 2024</p>
+    <ul>
+      <li>Led Infant and Young Child Feeding (IYCF) counseling initiatives, providing nutrition support to mothers and children.</li>
+      <li>Implemented UNICEF nutrition protocols to enhance maternal and child health outcomes.</li>
+      <li>Conducted comprehensive nutrition assessments and developed evidence-based feeding recommendations tailored to individual needs.</li>
+      <li>Supported data collection and reporting to monitor program effectiveness.</li>
+    </ul>
+  </div>
 
-  <h3>Nutrition Intern, ISRA University Hospital</h3>
-  <p class="meta">July 2021 - August 2021</p>
-  <ul>
-    <li>Assisted clinical dietitians with nutritional assessments, screenings, and therapeutic diet plan modifications for hospitalized patients.</li>
-    <li>Learned hospital nutrition protocols, medical nutrition therapy documentation, and patient counseling techniques.</li>
-  </ul>
+  <!-- PAGE 2: internships, education, skills, languages -->
+  <div class="page" data-document-role="page" data-label="Maham Ali Resume - Page 2">
+    <h2>Internships</h2>
 
-  <h2>Education</h2>
-  <h3>B.S. Nutrition &amp; Food Technology, University of Sindh</h3>
-  <p class="meta">2018 - 2023 | CGPA: 3.01</p>
-  <h3>Pre-Medical (HSSC), Excellence Education System, BISE Hyderabad</h3>
-  <p class="meta">2015 - 2017 | Grade: A (70.63%)</p>
+    <h3>Clinical Nutrition Intern, Civil Hospital</h3>
+    <p class="meta">June 2023 - January 2024</p>
+    <ul>
+      <li>Rotated through Gastroenterology, Pediatrics, and Nephrology departments providing specialized nutrition support.</li>
+      <li>Designed and implemented therapeutic meal plans for gastrointestinal disorders and renal-friendly diets focused on fluid and electrolyte balance.</li>
+      <li>Conducted nutritional assessments and feeding interventions for pediatric patients to address growth and developmental challenges.</li>
+      <li>Participated in interdisciplinary healthcare team meetings and MNT documentation.</li>
+    </ul>
 
-  <h2>Skills</h2>
-  <p><strong>Clinical Nutrition:</strong> Medical Nutrition Therapy (MNT), Therapeutic Diet Planning (Diabetes, Cholesterol, Kidney Disease), Malnutrition Assessment (WHO Guidelines), Gastrointestinal &amp; Pediatric Nutrition Support, Oncology &amp; Renal Nutrition</p>
-  <p class="skills-line"><strong>Specialized Programs:</strong> Targeted Supplementary Feeding Program (TSFP) Management, Infant &amp; Young Child Feeding (IYCF) Counseling, Maternal &amp; Child Health Nutrition</p>
-  <p class="skills-line"><strong>Public Health:</strong> Community-Based Nutrition Interventions, UNICEF Nutritional Protocol Implementation, Food Security &amp; Allergen Management</p>
-  <p class="skills-line"><strong>Technical:</strong> Nutritional Data Collection &amp; Program Monitoring, Patient Progress Tracking &amp; Reporting, Medical Documentation &amp; Health Records, Research &amp; Evidence-Based Practice</p>
-  <p class="skills-line"><strong>Soft Skills:</strong> Patient Counseling &amp; Communication, Team Collaboration in Healthcare, Problem-Solving &amp; Critical Thinking, Adaptability in Clinical &amp; Community Settings</p>
+    <h3>Nutrition Intern, ISRA University Hospital</h3>
+    <p class="meta">July 2021 - August 2021</p>
+    <ul>
+      <li>Assisted clinical dietitians with nutritional assessments, screenings, and therapeutic diet plan modifications for hospitalized patients.</li>
+      <li>Learned hospital nutrition protocols, medical nutrition therapy documentation, and patient counseling techniques.</li>
+    </ul>
 
-  <h2>Languages</h2>
-  <p>Urdu (Native) | English (Professional)</p>
+    <h2>Education</h2>
+    <h3>B.S. Nutrition &amp; Food Technology, University of Sindh</h3>
+    <p class="meta">2018 - 2023 | CGPA: 3.01</p>
+    <h3>Pre-Medical (HSSC), Excellence Education System, BISE Hyderabad</h3>
+    <p class="meta">2015 - 2017 | Grade: A (70.63%)</p>
+
+    <h2>Skills</h2>
+    <p><strong>Clinical Nutrition:</strong> Medical Nutrition Therapy (MNT), Therapeutic Diet Planning (Diabetes, Cholesterol, Kidney Disease), Malnutrition Assessment (WHO Guidelines), Gastrointestinal &amp; Pediatric Nutrition Support, Oncology &amp; Renal Nutrition</p>
+    <p class="skills-line"><strong>Specialized Programs:</strong> Targeted Supplementary Feeding Program (TSFP) Management, Infant &amp; Young Child Feeding (IYCF) Counseling, Maternal &amp; Child Health Nutrition</p>
+    <p class="skills-line"><strong>Public Health:</strong> Community-Based Nutrition Interventions, UNICEF Nutritional Protocol Implementation, Food Security &amp; Allergen Management</p>
+    <p class="skills-line"><strong>Technical:</strong> Nutritional Data Collection &amp; Program Monitoring, Patient Progress Tracking &amp; Reporting, Medical Documentation &amp; Health Records, Research &amp; Evidence-Based Practice</p>
+    <p class="skills-line"><strong>Soft Skills:</strong> Patient Counseling &amp; Communication, Team Collaboration in Healthcare, Problem-Solving &amp; Critical Thinking, Adaptability in Clinical &amp; Community Settings</p>
+
+    <h2>Languages</h2>
+    <p>Urdu (Native) | English (Professional)</p>
+  </div>
+
 </body>
 </html>
